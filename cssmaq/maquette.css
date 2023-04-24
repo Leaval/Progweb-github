@@ -1,0 +1,466 @@
+header{
+    background:repeat-x bottom; 
+}
+/* entete */
+
+.element0{
+    background-color: white;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 400px;
+   
+}
+  
+
+.element1{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+      height: 10px; 
+       text-align: right; 
+      margin-top: 50px;
+     margin-left: 5px;
+      margin-right: 2px; 
+}
+nav ul {   
+     list-style-type: none; 
+     } 
+     nav li {   
+           
+        display: inline-block;
+          
+        } 
+        nav a {   
+            font-size: 13px; 
+                color: #181818;    
+                padding-bottom: 20px;   
+                text-decoration: none; 
+                margin-right: 10px; 
+                 
+            
+            } 
+            nav a:hover { 
+                   color: black;   
+                    border-bottom: 3px solid black;
+            }
+.trait{
+    background-color: black;
+    height: 2px;
+}
+#bloc{
+    background-color: rgb(243, 243, 252);
+    
+    height: 2%;
+    margin-top: 0px;
+    margin-right: 0%;
+    
+    padding-top: 8px;
+    
+
+}
+.h1{
+   
+    color:rgb(240, 51, 51);
+    font-family: Arial, Helvetica, sans-serif  ;
+    margin-left: 4%;
+   width: 800px;
+   float: left;
+   text-align: center;
+}
+#past{
+
+    bottom: 0;  
+   height: 160px;
+   width: 100px; 
+  margin-top: 8px;
+  margin-left: -20%;
+    
+    
+
+}
+.nom{
+    
+    width: 930px;
+    text-align: center;
+    margin-right: 2%;
+    margin-top: -150px;
+    float: right;
+}
+.petit{
+    text-align: center;
+    float: right;
+    font-size: 6px;
+    margin-right: 35%;
+    margin-top: -70px;
+}
+
+.fond{
+    background-color: rgb(245, 207, 84);
+    margin-top: -1%;
+    height: 80px;
+}
+ .mot{
+    text-align: center;
+    color: white;
+    font-size: 8px;
+    padding-top: 30px;
+    margin-right: 5px;
+    height: 10px;
+}
+ /* la nav de plusieurs couleur*/
+.mot1{
+    background-color: rgb(144, 225, 231);
+    
+}
+.mot2{
+    background-color: rgb(87, 168, 87);
+}   
+.mot3{
+    background-color: rgb(52, 52, 231);
+}
+.mot4{
+    background-color: rgb(172, 27, 27);
+}
+.mot5{
+    background-color: rgb(250, 117, 76);
+}
+.mots{
+    text-align: center;
+    margin-top: 2px;
+   
+}
+.mot1:hover,.mot2:hover,.mot3:hover,.mot4:hover,.mot5:hover{
+    
+   border-bottom: 1px solid rgb(0, 0, 0);
+}
+.mot1,.mot2,.mot3,.mot4,.mot5{
+    height: 25px;
+    color: white;
+    width: 120px;
+    text-align: center;
+    font-size: 10px;
+   
+   padding-top: 10px;
+}
+.mon{
+    font-size: 20px;
+}
+ /* premier 'section' */
+.text1{
+    width: 200px;
+    margin-left:375px ;
+}
+.bouton1{
+    background-color: rgb(156, 150, 150);
+    height: 30px;
+   /* margin-bottom: 2px;*/
+    width: 90%;
+}
+.bouton2{
+    width: 80px;
+    margin-left: -120px;
+    height: 30px;
+    background-color: rgb(156, 150, 150);
+    margin-right: 2px;
+}
+.bouton3{
+    background-color: #3f3c3c;
+    color: white;
+    height: 30px;
+    margin-left: 44%;
+    width: 50%;
+    margin-top: -2px;
+    padding-top: -3px;
+}
+
+.bouton4{
+    background-color:rgb(245, 207, 84);
+    color: white;
+    height: 40px;
+    width: 190px;
+    margin-top: -50px;
+    border: thin solid white;
+    border-radius:5px ;
+    margin: 5px auto;
+    font-weight: both;
+    font-size: 10px;
+    text-align: center;
+    padding: 4px;
+}
+.tab{
+width: 200px;
+}
+#logo{
+    margin-left:550px;
+   height: 160px;
+   width: 160px;
+   margin-top: -899px;
+   margin-bottom:20%;
+}
+#lien{
+    color:rgb(245, 207, 84) ;
+
+}
+  /* deuxieme 'section' */
+.text2{
+    width: 399px;
+    margin-left:680px;
+    margin-top: -409px;
+    margin-bottom:23%;
+}
+#bande{
+    width:399px;
+    height:30px;
+}
+.mes{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.et{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-top: -10px;
+}
+.objet{
+    color: rgb(211, 101, 62);
+    margin-right: -15px;
+    text-transform: inherit ;
+    text-decoration:wavy;
+    
+    /*margin-bottom: 5%;*/
+    margin-left: 6%;
+    display: inline-block;
+    
+}
+@keyframes one{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+#ter{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    animation-name: two;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes two{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+/*#ter{
+    margin-top: -20px;
+ margin-left: 43%;
+}*/
+.bon{
+    margin-top: -30px;
+}
+.objet:hover{
+    color: rgb(130, 130, 243);   
+    border-bottom: 1px solid rgb(134, 134, 253);
+}
+/* la responsive */
+@media only screen and (min-width:320px) and (max-width:768px){
+    .text2{
+        margin-left: -5px;
+        width: 320px;
+        margin-top: 10px;
+    }
+    .text1,.element1{
+        display: none;
+    }
+    .element0{
+        margin-left: 5px;
+    }
+    .h1{
+        width: 96px;
+   float: left;
+   margin-left: -1px;
+   font-size: 15px;
+    }
+    #past{
+        width: 70px;
+        height: 70px;
+        margin-left: 12px;
+    }
+    .nom{
+        width: 100px;
+        float: right;
+        font-size: 15px;
+        margin-top: -70px;
+        margin-right: 35px;
+    }
+    .petit{
+        margin-right:39px;
+        margin-top: -35px;
+    }
+    .h1,#past,.nom,.petit{
+        text-align: center;
+        display: inline-block;
+    }
+    .mots{
+        margin-left: -34px;
+    }
+    .mot1,.mot2,.mot3,.mot4,.mot5{
+        width: 50px;
+        display: inline-block;
+        margin-right: -1px;
+        height: 8px;
+        padding-bottom: 8px;
+    }
+    #logo{
+        display: none;
+    }
+
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    .text1{
+        width: 200px;
+        margin-left:55px;
+    }
+    #logo{
+        margin-left: 227px;
+        height: 50%;
+        width: 30%;
+        margin-top: -565px;
+    }
+    .text2{
+        margin-left: 390px;
+        margin-top: -355px;
+    }
+    .mes{
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    }
+    .et{
+        margin-left: 50px;
+    }
+    .objet{
+        
+        margin-right: -12px;
+    }
+    .bon{
+        margin-left: 57px;
+    }
+    .mots{
+        margin-left: -4%;
+        width: 105%;
+    }
+    .mot1,.mot2,.mot3,.mot4,.mot5{
+        width: 135px;
+    }
+    .h1{
+        margin-left: -200px;
+    }
+    .nom{
+        margin-right: -200px;
+    }
+    #past{
+        margin-left: -300px;
+    }
+    .petit{
+        margin-right: 220px;
+    }
+    .element0{
+        margin-left: 50px;
+    }
+    .element1{
+       
+    
+        margin-right:1px ;
+    /*margin-left: 2%;*/
+    }
+    nav .element1{
+        margin-right: -15%;
+        
+        /*width: 21%;*/
+    }
+}
+@media only screen and (min-width:325px) and (max-width:768px){
+    .nom{
+        width: 100px;
+        float: right;
+        font-size: 15px;
+        margin-top: -70px;
+        margin-right: 35px;
+    }
+    .petit{
+        margin-right:39px;
+        margin-top: -35px;
+    }
+}
+@media only screen and (min-width:329px) and (max-width:768px){
+    .nom{
+        width: 100px;
+        float: right;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 35px;
+    }
+    .petit{
+        margin-right:39px;
+        margin-top: -35px;
+    }
+}
+@media only screen and (min-width:454px) and (max-width:768px){
+    .nom{
+        width: 100px;
+        float: right;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 35px;
+    }
+    .petit{
+        margin-right:39px;
+        margin-top: -35px;
+    }
+    .h1{
+     max-width: 96px;
+   float: left;
+   margin-left: 22%;
+   font-size: 15px;
+    }
+    #past{
+        width: 70px;
+        height: 70px;
+       /* margin-left: 20%;*/
+    
+    }
+}
+@media only screen and (min-width:573px) and (max-width:768px){
+    .nom{
+        width: 100px;
+        float: right;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 125px;
+    }
+    .petit{
+        margin-right:130px;
+        margin-top: -35px;
+    }
+    .h1{
+     max-width: 96px;
+   float: left;
+   margin-left: 24%;
+   font-size: 15px;
+    }
+    #past{
+        width: 70px;
+        height: 70px;
+       /* margin-left: 20%;*/
+    
+    }
+}
